@@ -1,13 +1,7 @@
-$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
-require 'rvm/capistrano'
-
 set :application, "ccstudiosinc"
 set :repository, "git@ramon.nupoison.com:#{application}.git" 
 set :scm, :git
 set :use_sudo, false
-set :rvm_ruby_string, 'ruby-1.9.2-p290@dontsweatit'
-set :rvm_bin_path, '/home/mike/.rvm/bin/'
-set :rvm_type, :user
 
 desc "Ramon Development Deploy - http://dev.continentalstudiosinc.com"
 task :dev do
