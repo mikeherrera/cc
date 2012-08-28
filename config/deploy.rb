@@ -10,7 +10,7 @@ task :dev do
 	set :password, 'hM5f5i3qc4S18PJ'
   set :repository,  repository
   set :keep_releases, 25
-  set :deploy_to, "~/"
+  set :deploy_to, "/var/www/vhosts/continentalstudiosinc.com/"
   set :deploy_via, :export
 end
 
@@ -29,6 +29,7 @@ namespace :deploy do
 	task :start do ; end
   task :stop do ; end
 	task :restart do ; end
+	task :finalize_update do ; end
 
   task :symlink, :roles => :web do
     run "ln -nfs #{release_path} #{current_path}"
