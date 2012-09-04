@@ -2,5 +2,5 @@
 
 require_once '../base.php' ;
 
-$smarty->display('index.tpl') ;
+$smarty->display('about.tpl') ;
 ?>

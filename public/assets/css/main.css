@@ -16,6 +16,7 @@ body	{
 
 #copyright p	{ 
 	line-height: 4px ;
+	color: #198CFF ;
 }
 	#copyright img {
 		height: 50px ;
@@ -23,4 +24,8 @@ body	{
 
 #home_imgs img	{
 	width: 285px ;
+}
+
+#about img	{
+	width: 250px ;
 }

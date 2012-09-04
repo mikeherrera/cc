@@ -2,6 +2,7 @@ set :application, "ccstudiosinc"
 set :repository, "git@ramon.nupoison.com:#{application}.git" 
 set :scm, :git
 set :use_sudo, false
+set :port, 10022 
 
 desc "Ramon Development Deploy - http://dev.continentalstudiosinc.com"
 task :dev do
@@ -10,7 +11,7 @@ task :dev do
 	set :password, 'hM5f5i3qc4S18PJ'
   set :repository,  repository
   set :keep_releases, 25
-  set :deploy_to, "~continentalstudiosinc.com/sites/development/"
+  set :deploy_to, "~/sites/development/"
   set :deploy_via, :export
 end
 

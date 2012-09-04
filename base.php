@@ -9,7 +9,7 @@ define('TMP', ROOT . 'tmp/') ;
 define('TEMP_C', TMP . 'templates_c/') ;
 define('CACHE', TMP . 'cache/') ;
 
-define('WEB_ROOT', 'http://dev.cc.com/') ;
+define('WEB_ROOT', 'http://ccmike.com/') ;
 define('ASSETS', WEB_ROOT . 'assets/') ;
 define('BOOTSTRAP', ASSETS . 'bootstrap/') ;
 define('BOOTSTRAP_CSS', BOOTSTRAP . 'css/bootstrap.min.css') ;
@@ -31,5 +31,4 @@ $smarty->assign('IMAGES', IMAGES) ;
 $smarty->assign('BOOTSTRAP_CSS', BOOTSTRAP_CSS) ;
 $smarty->assign('BOOTSTRAP_JS', BOOTSTRAP_JS) ;
 $smarty->assign('JS_LIB', JS_LIB) ;
-$smarty->display('index.tpl') ;
 ?>

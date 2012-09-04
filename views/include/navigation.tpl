@@ -2,12 +2,15 @@
     <div id="navigation" class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="#">Continental Studios Inc</a>
+          <a class="brand" href="/">Continental Studios Inc</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="/">home</a></li>
+              <li><a href="/whats-new">what's new</a></li>
+              <li><a href="/about">about</a></li>
+              <li><a href="/2013">2013</a></li>
+              <li><a href="/services">services</a></li>
+              <li><a href="/contact">contact</a></li>
             </ul>
           </div>
         </div>

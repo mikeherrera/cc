@@ -1,13 +1,8 @@
 		<footer>
 			<div id="copyright" class="row-fluid">
-				<div class="span2 offset1">
-					<img src="{$IMAGES}award1.jpg">
-				</div>
-				<div class="span6">
+				<div class="span6 offset3">
 					{include file='include/copyright.tpl'}
 				</div>
-				<div class="span2">
-					<img src="{$IMAGES}award2.jpg">
 				</div>
 			</div>
 		</footer>
