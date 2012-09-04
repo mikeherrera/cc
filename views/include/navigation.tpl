@@ -12,6 +12,8 @@
               <li><a href="/services">services</a></li>
               <li><a href="/contact">contact</a></li>
             </ul>
+						<img src="{$IMAGES}award1.jpg" style="width: 45px ;">
+						<img src="{$IMAGES}award2.jpg" style="width: 45px ;">
           </div>
         </div>
       </div>

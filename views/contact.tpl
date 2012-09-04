@@ -2,7 +2,7 @@
 
 <div id="content" class="container-fluid">
 	<div class="well">
-		<h2>what's new</h2>
+		<h2>contact</h2>
 	</div>
 </div>
 
