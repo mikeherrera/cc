@@ -5,12 +5,12 @@ set :use_sudo, false
 
 desc "Ramon Development Deploy - http://dev.continentalstudiosinc.com"
 task :dev do
-	role :web, "ramon.nupoison.com"
-  set :user, 'ccstudiosinc'
+	role :web, "javier-csi.nupoison.com"
+  set :user, 'continentalstudiosinc'
 	set :password, 'hM5f5i3qc4S18PJ'
   set :repository,  repository
   set :keep_releases, 25
-  set :deploy_to, "/var/www/vhosts/continentalstudiosinc.com/"
+  set :deploy_to, "~continentalstudiosinc.com/sites/development/"
   set :deploy_via, :export
 end
 

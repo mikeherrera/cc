@@ -1,0 +1,26 @@
+body	{
+	background-color: #515151 ;
+}
+
+.hero-unit	{
+	background-color: #EEEEEE ;
+}
+
+.navbar .brand	{
+	font-size: 26px ;
+}
+
+#content.container-fluid	{
+	margin-top: 50px ;
+}
+
+#copyright p	{ 
+	line-height: 4px ;
+}
+	#copyright img {
+		height: 50px ;
+	}
+
+#home_imgs img	{
+	width: 285px ;
+}
