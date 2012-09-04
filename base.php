@@ -1,6 +1,7 @@
 <?php
 
-define('ROOT', '/Users/maherrera/Documents/Projects/continentalstudiosinc/') ;
+if (file_exists(dirname(__FILE__) . '/env_constants.php'))	require_once 'env_constants.php' ;
+
 define('LIB', ROOT . 'lib/') ;
 define('SMARTY', LIB . 'Smarty-3.1.11/libs/') ;
 define('PUB', ROOT . 'public/') ;
@@ -9,7 +10,6 @@ define('TMP', ROOT . 'tmp/') ;
 define('TEMP_C', TMP . 'templates_c/') ;
 define('CACHE', TMP . 'cache/') ;
 
-define('WEB_ROOT', 'http://ccmike.com/') ;
 define('ASSETS', WEB_ROOT . 'assets/') ;
 define('BOOTSTRAP', ASSETS . 'bootstrap/') ;
 define('BOOTSTRAP_CSS', BOOTSTRAP . 'css/bootstrap.min.css') ;

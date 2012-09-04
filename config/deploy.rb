@@ -34,5 +34,7 @@ namespace :deploy do
 
   task :symlink, :roles => :web do
     run "ln -nfs #{release_path} #{current_path}"
+		run "cp #{release_path}/config/env_constants.#{ARGV[0]}.php #{release_path}/env_constants.php"
+		run "chmod -R 777 #{release_path}/tmp"
   end
 end
