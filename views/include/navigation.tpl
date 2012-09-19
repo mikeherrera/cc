@@ -10,7 +10,11 @@
               <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">catalogs<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li>hi</li>
+									<li>
+										<a href="/memorials">
+											memorials
+										</a>
+									</li>
 								</ul>
 							</li>
               <li><a href="/services">services</a></li>
