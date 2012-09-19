@@ -57,7 +57,7 @@
 				</ul>
 			</div>
 			<div class="span3">
-				<h4>indoor D&eacute;cor</h4>
+				<h4>indoor d&eacute;cor</h4>
 				<ul>
 					<li>(TC) Terra Cotta</li>
 					<li>(MG) Moss Green</li>
