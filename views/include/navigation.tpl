@@ -15,6 +15,11 @@
 											memorials
 										</a>
 									</li>
+									<li>
+										<a href="/2013-complete-supplement">
+											2013 supplement
+										</a>
+									</li>
 								</ul>
 							</li>
               <li><a href="/services">services</a></li>
