@@ -8,7 +8,12 @@
               <li class="active"><a href="/">home</a></li>
               <li><a href="/whats-new">what's new</a></li>
               <li><a href="/about">about</a></li>
-              <li><a href="/2013">2013</a></li>
+              <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">catalogs<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>hi</li>
+								</ul>
+							</li>
               <li><a href="/services">services</a></li>
               <li><a href="/contact">contact</a></li>
             </ul>

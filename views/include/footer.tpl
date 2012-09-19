@@ -9,6 +9,7 @@
 
     <script src="{$JS_LIB}jquery-1.8.1.min.js"></script>
     <script src="{$BOOTSTRAP_JS}"></script>
+		<script src="{$JS}navigation.init.js"></script>
 
   </body>
 </html>

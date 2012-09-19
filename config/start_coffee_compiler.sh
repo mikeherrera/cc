@@ -1,3 +1,3 @@
 #!/bin/bash
 
-coffee -wco public/assets/js coffee >> /tmp/coffee_log_ccstudios &
+coffee -wco /Users/maherrera/Documents/Projects/continentalstudiosinc/public/assets/js /Users/maherrera/Documents/Projects/continentalstudiosinc/coffee >> /tmp/coffee_log_ccstudios &

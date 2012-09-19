@@ -22,10 +22,26 @@ body	{
 		height: 50px ;
 	}
 
-#home_imgs img	{
+.home_imgs div img	{
 	width: 285px ;
 }
 
 #about img	{
 	width: 250px ;
+}
+
+div#new_items_modal.modal,
+div#finishes_modal.modal	{
+	width: 700px ;
+	margin: -275px 0 0 -300px
+}
+
+div#new_items_modal.modal div.modal-body,
+div#finishes_modal.modal div.modal-body	{
+	height: 510px ;
+	max-height: 510px ;
+}
+
+.carousel	{
+	margin-bottom: 0px ;
 }

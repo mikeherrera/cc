@@ -9,6 +9,7 @@ define('VIEWS', ROOT . 'views/') ;
 define('TMP', ROOT . 'tmp/') ;
 define('TEMP_C', TMP . 'templates_c/') ;
 define('CACHE', TMP . 'cache/') ;
+define('IMGS', PUB . 'assets/images/') ;
 
 define('ASSETS', WEB_ROOT . 'assets/') ;
 define('BOOTSTRAP', ASSETS . 'bootstrap/') ;
@@ -19,6 +20,8 @@ define('JS', ASSETS . 'js/') ;
 define('JS_LIB', JS . 'lib/') ;
 define('CSS', ASSETS . 'css/') ;
 define('IMAGES', ASSETS . 'images/') ;
+
+require_once LIB . 'functions.php' ;
 
 require_once SMARTY . 'Smarty.class.php' ;
 $smarty = new Smarty() ;
@@ -31,4 +34,5 @@ $smarty->assign('IMAGES', IMAGES) ;
 $smarty->assign('BOOTSTRAP_CSS', BOOTSTRAP_CSS) ;
 $smarty->assign('BOOTSTRAP_JS', BOOTSTRAP_JS) ;
 $smarty->assign('JS_LIB', JS_LIB) ;
+$smarty->assign('JS', JS) ;
 ?>
