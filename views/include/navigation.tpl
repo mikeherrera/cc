@@ -1,8 +1,13 @@
 		<navigation>
     <div id="navigation" class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
+				<div class="row" id="banner_imgs"></div>
+				<div class="row">
+					<div class="span10">
+						<h1>Continental Studios, Inc</h1>
+					</div>
+				</div>
         <div class="container">
-          <a class="brand" href="/">Continental Studios Inc</a>
             <ul class="nav">
               <li class="active"><a href="/">home</a></li>
               <li><a href="/whats-new">what's new</a></li>

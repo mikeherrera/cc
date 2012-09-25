@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'museo-slab';
+  src: url('../../font/museo_slab_300-webfont.eot');
+  src: url('../../font/museo_slab_300-webfont.eot?#iefix') format('embedded-opentype'), url('../../font/museo_slab_300-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo-slab';
+  src: url('../../font/museo_slab_500-webfont.eot');
+  src: url('../../font/museo_slab_500-webfont.eot?#iefix') format('embedded-opentype'), url('../../font/museo_slab_500-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body	{
 	background-color: #515151 ;
 }
@@ -11,7 +26,7 @@ body	{
 }
 
 #content.container-fluid	{
-	margin-top: 50px ;
+	margin-top: 295px ;
 }
 
 #copyright p	{ 
@@ -45,3 +60,21 @@ div#finishes_modal.modal div.modal-body	{
 .carousel	{
 	margin-bottom: 0px ;
 }
+
+div#banner_imgs {
+	width: 980px ;
+	height: 120px ;
+	background: url('../images/banner_bg.jpg') ;
+	margin-left: 0 ;
+}
+
+div#navigation h1	{
+	font-size: 70px ;
+	letter-spacing: -1px ;
+	line-height: 1.2;
+	color: #FFF ;
+	font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-shadow: 2px 2px 2px #999;
+}
+
+

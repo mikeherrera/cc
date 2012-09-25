@@ -19,6 +19,7 @@ define('BOOTSTRAP_IMG', BOOTSTRAP . 'img/') ;
 define('JS', ASSETS . 'js/') ; 
 define('JS_LIB', JS . 'lib/') ;
 define('CSS', ASSETS . 'css/') ;
+define('CSS_LIB', CSS . 'lib/') ;
 define('IMAGES', ASSETS . 'images/') ;
 
 require_once LIB . 'functions.php' ;
@@ -30,6 +31,7 @@ $smarty->setCompileDir(TEMP_C) ;
 $smarty->setCacheDir(CACHE) ;
 
 $smarty->assign('CSS', CSS) ;
+$smarty->assign('CSS_LIB', CSS_LIB) ;
 $smarty->assign('IMAGES', IMAGES) ;
 $smarty->assign('BOOTSTRAP_CSS', BOOTSTRAP_CSS) ;
 $smarty->assign('BOOTSTRAP_JS', BOOTSTRAP_JS) ;
