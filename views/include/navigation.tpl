@@ -3,7 +3,7 @@
       <div class="navbar-inner">
 				<div class="row" id="banner_imgs"></div>
 				<div class="row">
-					<div class="span10">
+					<div class="span12">
 						<h1>Continental Studios, Inc</h1>
 					</div>
 				</div>
