@@ -1,5 +1,5 @@
 set :application, "ccstudiosinc"
-set :repository, "git@ramon.nupoison.com:#{application}.git" 
+set :repository, "git://github.com:michaelherrera/cc.git"
 set :scm, :git
 set :use_sudo, false
 set :port, 10022 
