@@ -1,7 +1,7 @@
 {include file="include/header.tpl"}
 
 <div id="content" class="container-fluid">
-	<div class="hero-unit">
+	<div class="well">
 		<div class="row">
 			<div class="span7 offset2">
 				<div class="alert alert-info">

@@ -21,6 +21,8 @@
   </head>
 
 	<body>
+	
+	<div class="container">
 
 	<!-- Navigation -->
 	{include file='include/navigation.tpl'}
