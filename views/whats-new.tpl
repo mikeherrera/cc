@@ -6,11 +6,17 @@
 		<ul class="thumbnails">
   		<li class="span5">
 				<div class="thumbnail">
-  	      <img src="{$IMAGES}2013_new_items/Slide01.jpg" />
+					<div class="span1 whatsnew">
+						<img src="{$IMAGES}whats_new_left.jpg" />
+					</div>
+					<p>
+						The 2013 new items selection features pieces from the Virgin Mary collection, 
+						foundatins, bird baths, animals, and more!
+					</p>
 					<div class="caption">
 						<p class="text-info">
 							<a href="#" id="new_items" class="gallery_modal">
-								Click to view 2013 New Items
+								&bull; Click here to view 2013 New Items &bull;
 							</a>
 						</p>
 					</div>
@@ -18,11 +24,17 @@
       </li>
   		<li class="span5">
 				<div class="thumbnail">
-        	<img src="{$IMAGES}2013_finishes.jpg" />
+					<div class="span1 whatsnew">
+						<img src="{$IMAGES}whats_new_right.jpg" />
+					</div>
+					<p>
+						2013 also brings a wide collection of new finishes including environmentally friendly
+						acid washes and traditional colors.
+					</p>
 					<div class="caption">
 						<p class="text-info">
 							<a href="#" id="finishes" class="gallery_modal">
-								Click to view 2013 Finishes
+								&bull; Click here to view 2013 Finishes &bull;
 							</a>
 						</p>
 					</div>

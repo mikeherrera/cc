@@ -26,8 +26,19 @@ body	{
 	font-size: 26px ;
 }
 
+.well	{
+	padding-top: 50px ;
+}
+
+div.whatsnew	{
+	margin: 0 0 0 0 ;
+	padding-right: 4px ;
+}
+
 #content.container-fluid	{
-	margin-top: 295px ;
+	padding-top: 255px ;
+	padding-left: 0px ;
+	padding-right: 0px ;
 }
 
 #copyright p	{ 
@@ -38,8 +49,8 @@ body	{
 		height: 50px ;
 	}
 
-.home_imgs div img	{
-	width: 285px ;
+.home_imgs img	{
+	width: 375px ;
 }
 
 #about img	{
