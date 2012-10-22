@@ -17,12 +17,12 @@ end
 
 desc "Javier Production Deploy - http://www.continentalstudiosinc.com"
 task :prod do
-	role :web, "ramon.nupoison.com"
-  set :user, 'ccstudiosinc'
-	set :password, 'S1gSz61L9YFW0JV'
+	role :web, "javier-csi.nupoison.com"
+  set :user, 'continentalstudiosinc'
+	set :password, 'hM5f5i3qc4S18PJ'
   set :repository,  repository
   set :keep_releases, 25
-  set :deploy_to, "/home/mike/staging/dontsweatit"
+  set :deploy_to, "~/sites/production/"
   set :deploy_via, :export
 end
 
