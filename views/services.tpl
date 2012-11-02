@@ -25,7 +25,7 @@
 			<h3>custom mold making</h3>
 		</a>
 		<p>
-			During our 45+ year history, <strong>Continental Studios, Inc</strong> has produced a number of unique and one of kind pieces for our customers, motion pictures, the theater and corporations. If you have an Original model, antique, specially crafted item or unique idea, let <strong>Continental Studio Inc's</strong> staff of craftsmen, artists and sculptors make your dream a reality.
+			During our 45+ year history, <strong>Continental Studios, Inc.</strong> has produced a number of unique and one of kind pieces for our customers, motion pictures, the theater and corporations. If you have an Original model, antique, specially crafted item or unique idea, let <strong>Continental Studio Inc.'s</strong> staff of craftsmen, artists and sculptors make your dream a reality.
 		</p>
 		<p>
 			Please direct all inquires to: <a href="mailto:randy@continentalstudiosinc.com">randy@continentalstudiosinc.com</a>

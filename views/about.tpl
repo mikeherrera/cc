@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="span6">
   	  	<p>
-	    		Located on the Northwest side of Chicago, IL, Continental Studios, Inc. has been a family owned and operated business for over 50 years. Dealing exclusively with the wholesale trade, Continental Studios, Inc. manufactures and distributes more than 8000 accessories for outdoor and indoor decorative possibilities including classical statuary, wall decor, table bases, pedestals, urns, bird baths, gargoyles and much more across North America.
+	    		Located on the Northwest side of Chicago, IL, <strong>Continental Studios, Inc.</strong> has been a family owned and operated business for over 50 years. Dealing exclusively with the wholesale trade, <strong>Continental Studios, Inc.</strong> manufactures and distributes more than 8000 accessories for outdoor and indoor decorative possibilities including classical statuary, wall decor, table bases, pedestals, urns, bird baths, gargoyles and much more across North America.
   		  </p>
       </div>
 			<div id="about" class="span6 pull-right">

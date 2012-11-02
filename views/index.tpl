@@ -6,7 +6,7 @@
 			<div class="span6">
 				<h1>welcome</h1>
     		<p>
-					Originally from Lucca, Italy, Continental Craft, Inc. is a family owned and operated business. Dealing exclusively with the wholesale trade for more than 50 years, Continental Craft, Inc. is a manufacturer and distributor of more than 6000 accessories for outdoor and indoor decorative possibilities.
+					Originally from Lucca, Italy, <strong>Continental Studios, Inc.</strong> is a family owned and operated business. Dealing exclusively with the wholesale trade for more than 50 years, <strong>Continental Studios, Inc.</strong> is a manufacturer and distributor of more than 6000 accessories for outdoor and indoor decorative possibilities.
 				</p>
 			</div>
 			<div class="span6 home_imgs">
