@@ -22,6 +22,9 @@ define('CSS', ASSETS . 'css/') ;
 define('CSS_LIB', CSS . 'lib/') ;
 define('IMAGES', ASSETS . 'images/') ;
 
+require_once LIB . 'class.phpmailer.php' ;
+require_once LIB . 'class.smtp.php' ;
+require_once LIB . 'class.pop3.php' ;
 require_once LIB . 'functions.php' ;
 
 require_once SMARTY . 'Smarty.class.php' ;
