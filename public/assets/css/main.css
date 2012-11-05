@@ -26,17 +26,13 @@ body	{
 	font-size: 26px ;
 }
 
-.well	{
-	padding-top: 50px ;
-}
-
 div.whatsnew	{
 	margin: 0 0 0 0 ;
 	padding-right: 4px ;
 }
 
 #content.container-fluid	{
-	padding-top: 255px ;
+	padding-top: 215px ;
 	padding-left: 0px ;
 	padding-right: 0px ;
 }
@@ -75,7 +71,7 @@ div#finishes_modal.modal div.modal-body	{
 
 div#banner_imgs {
 	width: 980px ;
-	height: 120px ;
+	height: 80px ;
 	background: url('../images/banner_bg.jpg') ;
 	margin-left: 0 ;
 }

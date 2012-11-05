@@ -10,7 +10,7 @@ task :dev do
   set :user, 'continentalstudiosinc'
 	set :password, 'hM5f5i3qc4S18PJ'
   set :repository,  repository
-  set :keep_releases, 25
+  set :keep_releases, 3
   set :deploy_to, "~/sites/development/"
   set :deploy_via, :export
 end
@@ -21,7 +21,7 @@ task :prod do
   set :user, 'continentalstudiosinc'
 	set :password, 'hM5f5i3qc4S18PJ'
   set :repository,  repository
-  set :keep_releases, 25
+  set :keep_releases, 3
   set :deploy_to, "~/sites/production/"
   set :deploy_via, :export
 end
