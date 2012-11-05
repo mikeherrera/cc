@@ -7,7 +7,7 @@ if (isset($_POST['submit']))  {
   $mail->IsSMTP() ;
   $mail->SetFrom('info@continentalstudiosinc.com', 'Info - No Reply') ;
   $mail->Subject = 'Catalog Request' ;
-  $mail->AddAddress('randy@continentalstudiosinc.com', 'Randy') ;
+  $mail->AddAddress('rmotroni@continentalstudiosinc.com', 'Randy') ;
   $mail->SMTPAuth   = true ;
   $mail->SMTPSecure = "ssl" ;
   $mail->Host       = "smtp.gmail.com" ;
