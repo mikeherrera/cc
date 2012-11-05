@@ -17,12 +17,12 @@
 						<img src="{$IMAGES}award2.jpg" style="width: 65px ;">
 					</div>
 				</div>
-        <div class="container">
+        <div id="navigation_links" class="container">
             <ul class="nav">
-              <li class="active"><a href="/">home</a></li>
-              <li><a href="/whats-new">what's new</a></li>
-              <li><a href="/about">about</a></li>
-              <li class="dropdown">
+              <li id="home"><a href="/">home</a></li>
+              <li id="whats-new"><a href="/whats-new">what's new</a></li>
+              <li id="about"><a href="/about">about</a></li>
+              <li id="catalogs" class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">catalogs<b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li>
@@ -50,8 +50,8 @@
                  <li><a href="/request">request</a></li>
 								</ul>
 							</li>
-              <li><a href="/services">services</a></li>
-              <li><a href="/contact">contact</a></li>
+              <li id="services"><a href="/services">services</a></li>
+              <li id="contact"><a href="/contact">contact</a></li>
             </ul>
         </div>
       </div>
