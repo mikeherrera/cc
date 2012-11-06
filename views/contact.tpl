@@ -7,7 +7,7 @@
 			<div class="span3">
 				<address>
 					<strong>Wholesale &amp; Retail</strong><br />
-					1300 North Kostner Ave.<br />
+					1300 South Kostner Ave.<br />
 					Chicago, Illinois 60623<br />
 					<abbr title="Phone">Ph</abbr>. 773-542-0309<br />
 					<abbr title="Fax">F</abbr>. 773-762-4010 
