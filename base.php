@@ -21,6 +21,7 @@ define('JS_LIB', JS . 'lib/') ;
 define('CSS', ASSETS . 'css/') ;
 define('CSS_LIB', CSS . 'lib/') ;
 define('IMAGES', ASSETS . 'images/') ;
+define('PDFS', ASSETS . 'pdfs/') ;
 
 require_once LIB . 'class.phpmailer.php' ;
 require_once LIB . 'class.smtp.php' ;
@@ -40,4 +41,5 @@ $smarty->assign('BOOTSTRAP_CSS', BOOTSTRAP_CSS) ;
 $smarty->assign('BOOTSTRAP_JS', BOOTSTRAP_JS) ;
 $smarty->assign('JS_LIB', JS_LIB) ;
 $smarty->assign('JS', JS) ;
+$smarty->assign('PDFS', PDFS) ;
 ?>
