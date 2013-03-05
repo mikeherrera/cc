@@ -1,5 +1,5 @@
 set :application, "ccstudiosinc"
-set :repository, "git://github.com/michaelherrera/cc.git"
+set :repository, "git://github.com/ohmyshirt/cc.git"
 set :scm, :git
 set :use_sudo, false
 set :port, 10022 
@@ -22,7 +22,7 @@ task :prod do
 	set :password, 'hM5f5i3qc4S18PJ'
   set :repository,  repository
   set :keep_releases, 3
-  set :deploy_to, "~/sites/production/"
+  set :deploy_to, "/home/continentalstudiosinc/sites/production"
   set :deploy_via, :export
 end
 
@@ -32,7 +32,7 @@ namespace :deploy do
 	task :restart do ; end
 	task :finalize_update do ; end
 
-  task :symlink, :roles => :web do
+  task :create_symlink, :roles => :web do
     run "ln -nfs #{release_path} #{current_path}"
 		run "cp #{release_path}/config/env_constants.#{ARGV[0]}.php #{release_path}/env_constants.php"
 		run "chmod -R 777 #{release_path}/tmp"

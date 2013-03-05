@@ -42,16 +42,16 @@
                  <li class="dropdown-submenu">
                   <a href="#">main</a>
                   <ul class="dropdown-menu">
-                    <li><a href="{$PDFS}/cover.pdf" target="_blank">cover &amp; index</a></li>
-                    <li><a href="{$PDFS}/section_a.pdf" target="_blank">section a</a></li>
-                    <li><a href="{$PDFS}/section_b.pdf" target="_blank">section b</a></li>
-                    <li><a href="{$PDFS}/section_c.pdf" target="_blank">section c</a></li>
-                    <li><a href="{$PDFS}/section_d.pdf" target="_blank">section d</a></li>
-                    <li><a href="{$PDFS}/section_e.pdf" target="_blank">section e</a></li>
-                    <li><a href="{$PDFS}/section_f.pdf" target="_blank">section f</a></li>
-                    <li><a href="{$PDFS}/section_g.pdf" target="_blank">section g</a></li>
-                    <li><a href="{$PDFS}/section_h.pdf" target="_blank">section h</a></li>
-                    <li><a href="{$PDFS}/section_i.pdf" target="_blank">section i</a></li>
+                    <li><a href="{$PDFS}cover.pdf" target="_blank">cover &amp; index</a></li>
+                    <li><a href="{$PDFS}section_a.pdf" target="_blank">section a</a></li>
+                    <li><a href="{$PDFS}section_b.pdf" target="_blank">section b</a></li>
+                    <li><a href="{$PDFS}section_c.pdf" target="_blank">section c</a></li>
+                    <li><a href="{$PDFS}section_d.pdf" target="_blank">section d</a></li>
+                    <li><a href="{$PDFS}section_e.pdf" target="_blank">section e</a></li>
+                    <li><a href="{$PDFS}section_f.pdf" target="_blank">section f</a></li>
+                    <li><a href="{$PDFS}section_g.pdf" target="_blank">section g</a></li>
+                    <li><a href="{$PDFS}section_h.pdf" target="_blank">section h</a></li>
+                    <li><a href="{$PDFS}section_i.pdf" target="_blank">section i</a></li>
                   </ul>
                  </li>
                  <li class="divider"></li>
